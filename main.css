@@ -1,0 +1,158 @@
+.login-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+.input-field {
+    width: 70%;
+    height: 30px;
+    margin-top: 15px;
+    background-color: lightgrey;
+    border: none;
+    border-bottom: solid 2px white;
+}
+
+.input-button {
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.input-button:hover {
+    background-color: #555555;
+    border: 2px solid #555555;
+    color: white;
+}
+
+div.container {
+    text-align: center;
+    vertical-align: top;
+}
+  
+.container > .left {
+    display: inline-block;
+    
+}
+
+.container > .right {
+    display: inline-block;
+  
+} 
+  
+.card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    overflow: auto;
+}
+.school {
+    color: grey;
+    font-size: 22px;
+}
+  
+.category {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.information {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 15px;
+  
+}
+
+.card button {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center; 
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+    
+.card button:hover {
+    opacity: 0.7;
+}
+  
+/* Style all font awesome icons */
+.fa {
+    padding: 6px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+  
+/* Set a specific color for each brand */
+  
+/* Google */
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+  
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+/* Youtube */
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+  
